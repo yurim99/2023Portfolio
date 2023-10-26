@@ -6,3 +6,5 @@ var swiper = new Swiper(".work-wrapper .mySwiper", {
 		prevEl: ".swiper-button-prev",
 	}
 });
+
+AOS.init();

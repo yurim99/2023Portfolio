@@ -4,6 +4,7 @@
 
 /********************** 글로벌 설정 *********************/
 html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background-color: #f9f9f9; color: #222;}
+body.bg {background: linear-gradient(to bottom, #f9f9f9, #bedcff ) ;}
 
 .wrapper {width: 1200px; margin: auto;}
 .wrapper2 {width: 800px; margin: auto;}
@@ -26,7 +27,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background
 .main-wrapper .title-wrap {line-height: 1.5; padding: 5em 0;}
 .main-wrapper .title-wrap .title {font-size: 2.5em; font-weight: 600;}
 .main-wrapper .title-wrap .title span {color: #0000ff;}
-.main-wrapper .title-wrap .sub-title {background-color: #eee; padding: 1em; margin-top: 1em;}
+.main-wrapper .title-wrap .sub-title {background-color: rgb(0 0 0 / 10%); padding: 1em; margin-top: 1em;}
 
 
 /********************** about-wrapper *********************/
@@ -41,6 +42,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background
 .about-wrapper .about-wrap .table thead {font-weight: bold; color: #0000ff;}
 .about-wrapper .about-wrap .table thead tr td {border-top: none;}
 .about-wrapper .about-wrap .table tbody tr:first-child td { border-top-color: #0000ff;}
+.about-wrapper .about-wrap .table tbody tr td {vertical-align: middle;}
 .about-wrapper .about-wrap .table tbody a.btn {padding: .25em .5em; background-color: #fff; border-radius: 10px; border: 2px solid #0000ff; color: #0000ff;}
 .about-wrapper .about-wrap .table tbody a.btn:hover {background-color: #0000ff; color: #fff;}
 
@@ -50,7 +52,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background
 
 /********************** work-wrapper *********************/
 .work-wrapper {padding: 3em 0;}
-.work-wrapper .swiper-container {margin-top: 2em; width: 100%; height: 100%; background-color: #eee}
+.work-wrapper .swiper-container {margin-top: 2em; width: 100%; height: 100%; background-color: rgb(0 0 0 / 10%);}
 .work-wrapper .swiper-container .swiper-slide {padding: 1em 0;}
 .work-wrapper .swiper-container .swiper-slide .img-wrap {text-align: center;}
 .work-wrapper .swiper-container .swiper-slide .cnt-wrap {padding: 2em 1em 0;}
@@ -81,7 +83,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background
 
 /********************** contact-wrapper *********************/
 .contact-wrapper {padding: 3em 0;}
-.contact-wrapper .cnt-wrap {width: 100%; height: 20vh; background-color: #eee; margin-top: 2em;
+.contact-wrapper .cnt-wrap {width: 100%; height: 20vh; background-color: rgb(0 0 0 / 10%); margin-top: 2em;
 	display: flex;	justify-content: space-around; align-items: center;}
 .contact-wrapper .cnt-wrap a {font-size: 1.25rem; font-weight: bold; padding: 1rem;}
 .contact-wrapper .cnt-wrap a:hover {text-decoration: underline; color: #2b6eff;}
