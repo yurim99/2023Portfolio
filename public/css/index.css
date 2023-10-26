@@ -1,0 +1,108 @@
+/* 0000ff */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
+
+
+/********************** 글로벌 설정 *********************/
+html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background-color: #f9f9f9; color: #222;}
+
+.wrapper {width: 1200px; margin: auto;}
+.wrapper2 {width: 800px; margin: auto;}
+
+.title-wrap h3.title {font-size: 2em; font-weight: 700;}
+.title-wrap .bar {border-top: 3px solid #0000ff;	margin-top: 0.75em;}
+
+
+/********************** header-wrapper *********************/
+.header-wrapper {padding: 1em 0; background-color: #fff; border-bottom: 1px solid #ccc;
+	position: fixed; width: 100%; z-index: 99;}
+.header-wrapper .header-wrap {display: flex; justify-content: space-between; align-items: center;}
+.header-wrapper .header-wrap .navi-wrap {display: flex; font-weight: bold;}
+.header-wrapper .header-wrap .navi-wrap .navi a {padding: .75em 1.25em;}
+.header-wrapper .header-wrap .navi-wrap .navi:hover {background-color: #ddd;}
+
+
+/********************** main-wrapper *********************/
+.main-wrapper .main-wrap video {width: 100%; height: 40vh; object-fit: cover;}
+.main-wrapper .title-wrap {line-height: 1.5; padding: 5em 0;}
+.main-wrapper .title-wrap .title {font-size: 2.5em; font-weight: 600;}
+.main-wrapper .title-wrap .title span {color: #0000ff;}
+.main-wrapper .title-wrap .sub-title {background-color: #eee; padding: 1em; margin-top: 1em;}
+
+
+/********************** about-wrapper *********************/
+.about-wrapper {padding: 3em 0;}
+.about-wrapper .about-wrap {padding: 1em 0;}
+.about-wrapper .about-wrap .sub-title {font-size: 1.5em; padding: .5em 0; font-weight: 600;}
+.about-wrapper .about-wrap .ctn-wrap {display: flex; align-items: center; margin-bottom: 1em;}
+.about-wrapper .about-wrap .ctn-wrap .date {padding: 0.25em; color: #0000ff; margin-right: .5em;
+	border: 2px solid #0000ff; border-radius: 20px;}
+.about-wrapper .about-wrap .ctn-wrap .cnt span {font-weight: 600;}
+
+.about-wrapper .about-wrap .Career-wrap .ctn-wrap {align-items: flex-start;}
+.about-wrapper .about-wrap .Career-wrap .ctn-wrap .cnt {padding-bottom: .75em;}
+
+
+/********************** skill-wrapper *********************/
+.skill-stage {padding: 3em 0;}
+.skill-wrapper .title-wrap {padding-bottom: 2em;}
+
+.skill-wrapper .skill-wrap {display: flex; margin-bottom: 3em;}
+.skill-wrapper .skill-wrap i {font-size: 2em; color:#0000ff;}
+.skill-wrapper .skill-wrap .cnt-wrapper .icon-wrap {display: flex; align-items: center; margin-bottom: .5em;}
+.skill-wrapper .skill-wrap .cnt-wrapper .cnt-wrap {line-height: 2; padding-left: 0.325em;}
+
+.icon-wrap {display: flex;}
+.icon-wrap .icon {padding: 0.325em; margin: 0.25em; border-radius: 15px;}
+.icon-wrap .icon.ps {background-color: #2d266a; color: #8ec5fb; border: solid 3px #8ec5fb;}
+.icon-wrap .icon.ai {background-color: #594222; color: #feba4f; border: solid 3px #feba4f;}
+.icon-wrap .icon.xd {background-color: #470137; color: #ff61f6; border: solid 3px #ff61f6;}
+.icon-wrap .icon.h {background: linear-gradient(to right,#e54d26 50%, #f16528 50%);	border: solid 3px #e54d26; color: #fff;}
+.icon-wrap .icon.c {background: linear-gradient(to right,#0064b4 50%, #2eaade 50%);	border: solid 3px #0064b4; color: #fff;}
+.icon-wrap .icon.js {background: linear-gradient(to right,#dab92c 50%, #ffd93a 50%);	border: solid 3px #dab92c; color: #fff;}
+.icon-wrap .icon.jq {background-color: #1169ae; border: solid 3px #1169ae; color: #fff;}
+
+
+/********************** work-wrapper *********************/
+.work-wrapper {padding: 3em 0;}
+.work-wrapper .swiper-container {margin-top: 2em; width: 100%; height: 100%;
+	background-color: #7ab3ffcc;}
+.work-wrapper .swiper-container .swiper-slide {padding: 1em 0;}
+.work-wrapper .swiper-container .swiper-slide .img-wrap {text-align: center;}
+.work-wrapper .swiper-container .swiper-slide .cnt-wrap {padding: 2em 1em 0;}
+.work-wrapper .swiper-container .swiper-slide .cnt-wrap .cnt {line-height: 2;}
+.work-wrapper .swiper-container .swiper-slide .icon-wrap {padding-top: 1em;}
+.work-wrapper .swiper-container .swiper-btn {color: #fff; top: 40%;}
+
+
+/********************** contact-wrapper *********************/
+.contact-wrapper {padding: 3em 0;}
+.contact-wrapper .cnt-wrap {width: 100%; height: 20vh; background-color: #eee; margin-top: 2em;
+	display: flex;	justify-content: space-around; align-items: center;}
+.contact-wrapper .cnt-wrap a {font-size: 1.25rem; font-weight: bold; padding: 1rem;}
+.contact-wrapper .cnt-wrap a:hover {text-decoration: underline; color: #2b6eff;}
+.contact-wrapper video {width: 100%; height: 30vh; object-fit: cover;}
+
+
+/********************** footer-wrapper *********************/
+.footer-wrapper {background-color: #333; color: #ccc; padding: 2em 0;}
+.footer-wrapper .copyright {font-weight: 300; text-align: center; font-size: 0.875em;}
+
+
+/********************** 반응형 설정 *********************/
+@media (max-width: 1199px) {
+	.wrapper {width: calc(100% - 2rem); margin: 0 1rem;}
+}
+
+@media (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+	.wrapper2 {width: calc(100% - 2rem); margin: 0 1rem;}
+}
+
+@media (max-width: 575px) {
+	.header-wrapper .logo img {height: 12px;}
+	.header-wrapper .header-wrap .navi-wrap .navi a {padding: .625rem;}
+	.main-wrapper .title-wrap {font-size: 0.875em;}
+}
