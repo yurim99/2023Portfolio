@@ -34,7 +34,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif; font-size: 16px; background
 .about-wrapper .about-wrap {padding: 1em 0;}
 .about-wrapper .about-wrap .sub-title {font-size: 1.5em; padding: .5em 0; font-weight: 600;}
 .about-wrapper .about-wrap .ctn-wrap {display: flex; align-items: center; margin-bottom: 1em;}
-.about-wrapper .about-wrap .ctn-wrap .date {padding: 0.25em; color: #0000ff; margin-right: .5em; border-radius: 20px; border: 2px solid #0000ff;}
+.about-wrapper .about-wrap .ctn-wrap .date {margin-right: 1em; padding: .3em .5em; background-color: #0000ff; color: #fff; font-weight: bold;}
 .about-wrapper .about-wrap .ctn-wrap .cnt span {font-weight: 600;}
 
 .about-wrapper .about-wrap .table {text-align: center; padding-top: 1em; margin-bottom: 3em; border: #fff;}
